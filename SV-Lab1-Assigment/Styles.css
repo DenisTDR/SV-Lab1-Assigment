@@ -1,1 +1,101 @@
 ﻿
+body {
+    margin: 0;
+}
+
+.header {
+    background: #1e90ff;
+    padding: 10px 5px;
+    text-align: center;
+}
+.header .headerTitle {
+    font-size: 2em;
+    font-weight: bold;
+    display: inline-block;
+}
+.body {
+    /*border: 5px solid blue;*/
+    margin: 0 auto;
+}
+.body>* {
+    /*display: inline-block;*/
+    vertical-align: top;
+}
+.body .leftMenu {
+    border: 1px solid yellow;
+    background: #DDEEFF;
+    border: 1px solid #1460A8;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+}
+.body .leftMenu:hover {
+    margin: 7px;
+    padding: 8px;
+}
+.linkButton,
+.body .leftMenu .menuItem {
+    margin: 5px;
+}
+.linkButton a,
+.body .leftMenu .menuItem a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    background: #DDEEFF;/*#0E477C;*/
+    border: 1px solid #104F89;
+    border-radius: 4px;
+    color: black;
+    width: 90%;
+    padding: 5px;
+}
+.linkButton a:hover,
+.body .leftMenu .menuItem a:hover {
+    background: #104F89;/*#0E477C;*/
+    border-color: #1e90ff;
+    color: white;
+}
+.linkButton {
+    display: inline-block;
+    margin: 0 auto;
+}
+.linkButton a {
+    width: auto;
+    padding: 2px 15px;
+}
+.body .content {
+    margin: 10px 10px 10px 0;
+    width: auto;
+    overflow: hidden;
+    min-width: 288px;
+}
+.body .content .studentsTable {
+    margin: 0 auto;
+    /*width: 100%;*/
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #7f7f7f;
+}
+.body .content .studentsTable td {
+    text-align: center;
+    padding: 10px;
+}
+.body .content .studentsTable td,
+.body .content .studentsTable th {
+    border: 1px solid #7f7f7f;
+}
+@media only screen and (min-width: 900px) {
+    .body {
+        width: 850px;
+    }
+    .body .leftMenu .menuItem {
+        width: 10vw;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .body {
+        width: 1150px;
+    }
+}
