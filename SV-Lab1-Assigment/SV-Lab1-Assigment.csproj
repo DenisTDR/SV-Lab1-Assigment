@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Images\default-image.png" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -79,7 +80,7 @@
     <Content Include="students.html" />
     <Content Include="courses.html" />
     <Content Include="student_details.html" />
-    <Content Include="Styles.css" />
+    <Content Include="Content\Styles\Styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
