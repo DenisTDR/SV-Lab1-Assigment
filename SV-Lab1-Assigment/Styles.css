@@ -1,6 +1,7 @@
 ﻿
 body {
     margin: 0;
+    background: #EDEDED;
 }
 
 .header {
@@ -71,12 +72,33 @@ body {
     overflow: hidden;
     min-width: 288px;
 }
+.body .content>h1,
+.body .content>h3 {
+    padding-left: 10vw;
+}
 .body .content .studentsTable {
     margin: 0 auto;
     /*width: 100%;*/
     border-collapse: separate;
     border-spacing: 0;
     border: 1px solid #7f7f7f;
+}
+.body .content .studentsTable tbody tr:nth-child(odd) {
+    background: #D6D6D6;
+}
+.body .content .studentsTable tbody tr:nth-child(even) .linkButton a {
+    background: #D6D6D6;
+    color: black;
+}
+.body .content .studentsTable tbody tr:nth-child(odd) .linkButton a {
+    background: #EDEDED;
+    color: black;
+}
+.body .content .studentsTable tbody tr .linkButton a:hover {
+    background: #B5B5B5;
+}
+.body .content .studentsTable tr:nth-child(even) {
+    /*background: blue;*/
 }
 .body .content .studentsTable td {
     text-align: center;
