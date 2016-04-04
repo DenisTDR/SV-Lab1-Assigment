@@ -76,7 +76,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Index.html" />
+    <Content Include="index.html" />
     <Content Include="students.html" />
     <Content Include="courses.html" />
     <Content Include="student_details.html" />
